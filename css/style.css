@@ -1,0 +1,49 @@
+/******** BASE **********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: teal;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    color: white;
+    font-size: 4rem;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 1rem;
+}
+
+.box {
+    background-color: magenta;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+.box.fizz {
+    background-color: yellowgreen;
+}
+
+.box.buzz {
+    background-color: red;
+}
+
+.box.fizzBuzz {
+    background-color: blue;
+}
