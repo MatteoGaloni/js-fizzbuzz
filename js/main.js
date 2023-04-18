@@ -1,5 +1,9 @@
-const wrapper = document.getElementById("wrapper");
-const box = document.getElementsByClassName("box")
+const wrapper = document.getElementById("wrapper")
+
+ // *****test aggiungo elemento al Dom tramite metodo append***
+
+// const myDiv = document.getElementById('myDiv');
+// const newDiv = document.createElement('div');
 
 for (let i = 1; i <= 100; i++) {   
     
@@ -17,7 +21,12 @@ for (let i = 1; i <= 100; i++) {
         wrapper.innerHTML += `<div class="box">${i}</div>`;
     }
 
+//    ***test metodo append***
+    
+    // newDiv.append(i);
+    // myDiv.append(newDiv);
 }
+
 
 
 
